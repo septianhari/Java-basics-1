@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;07 Mmemahami String&apos;" deleteContents="false" description="Delete resource &apos;07 Mmemahami String&apos;" element1="/07 Mmemahami String" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1693236847139"/>&#x0A;<refactoring comment="Delete resource &apos;Konversi tipe data&apos;" deleteContents="false" description="Delete resource &apos;Konversi tipe data&apos;" element1="/Konversi tipe data" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1693240652982"/>
+</session>

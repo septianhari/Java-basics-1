@@ -1,0 +1,54 @@
+package com.tutorial;
+
+import java.util.Arrays;
+
+public class Main {
+
+	public static void main (String[] args) {
+		
+		int[] arrayAngka1 = {1,2,3,4,5};
+		
+		// merubah array menjadi String
+		System.out.println("\nMerubah array menjadi string\n===========================");
+		printArray(arrayAngka1);
+		
+		// mengkopi array
+		System.out.println("\nMengkopi array\n=========================================");
+		int[] arrayAngka2 = new int[5];
+		printArray(arrayAngka1);
+		printArray(arrayAngka2);
+		System.out.println("\nMengkopi dengan loop\n====================================");
+		for(int i=0; i < arrayAngka1.length;i++) {
+			arrayAngka2[i] = arrayAngka1[i];
+		}
+		printArray(arrayAngka1);
+		System.out.println(arrayAngka1);
+		printArray(arrayAngka2);
+		System.out.println(arrayAngka2);
+		
+		// mengkopi dengan copyOf
+		System.out.println("\nMengkopi dengan copyOf\n==================================");
+		int[] arrayAngka3 = Arrays.copyOf(arrayAngka1, 4);
+		printArray(arrayAngka1);
+		System.out.println(arrayAngka1);
+		printArray(arrayAngka3);
+		System.out.println(arrayAngka3);
+		
+		
+		//Mengkopi dengan copyOf Range
+		System.out.println("\nMengkopi dengan copyOfRange\n========================");
+		int[] arrayAngka4 = Arrays.copyOfRange(arrayAngka1, 0, 5);
+		printArray(arrayAngka4);
+		System.out.println(arrayAngka4);
+		printArray(arrayAngka4);
+		System.out.println(arrayAngka4);
+		
+		
+		
+	}
+
+		private static void printArray(int[] dataArray) {
+			System.out.println("array = " + Arrays.toString(dataArray));
+		}
+	
+}
