@@ -1,3 +1,3 @@
 # Java-basics-1
 
-belajar java dasar bareng kelas terbuka
+belajar java dasar bareng kelas terbuka (eclipse)
